@@ -3,10 +3,152 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-#home
-#about
+/* home */
+.home {
+    background:linear-gradient(to left bottom, rgb(113, 220, 235), rgb(236, 166, 236));
+    padding: 1px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(87, 90, 90, 0.1);
+    z-index: 100;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 400px;
+}
+
+nav .logo {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+nav ul {
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    text-shadow: 2px 5px 6px white;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+/* homebackground */
+.hero {
+    background: url('../imgbg/image.png') no-repeat center center/cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    box-shadow: 1px 2px 8px gray;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(12, 12, 12, 0.5);
+    /* Dark overlay */
+}
+
+.hero-content {
+    margin-left: 90px;
+    position: relative;
+    z-index: 1;
+    text-shadow: 1px 2px 8px rgb(189, 177, 177);
+}
+
+.hero h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero h1:hover {
+    transform: translateY(-7px);
+    transition: .5s;
+}
+
+.hero h1 span {
+    color: orange;
+}
+
+.hero button {
+    padding: 20px 35px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 22px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+.hero button:hover {
+    background: darkorange;
+}
+
+
+/* about */
+.section {
+    padding: 30px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pt2 img {
+    width: 300px;
+}
+
+.ab {
+    text-shadow: 1px 2px 5px gray;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ba {
+    background-color: rgb(221, 231, 231);
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 1px 5px 8px grey;
+    border-radius: 20px;
+
+}
+
+.pa {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+b{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
 #product
 #service
 #contect
-#map
-
+#map */ */
