@@ -3,10 +3,48 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-#home
-#about
-#product
-#service
-#contect
-#map
+/* #home
+#about */
+/* about */
+.section {
+    padding: 30px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pt2 img {
+    width: 300px;
+}
+
+.ab {
+    text-shadow: 1px 2px 5px gray;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ba {
+    background-color: rgb(221, 231, 231);
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 1px 5px 8px grey;
+    border-radius: 20px;
+
+}
+
+.pa {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+b{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
 
