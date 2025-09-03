@@ -237,8 +237,8 @@ ul{
     align-items: center;
 }
 .card-container {
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 2fr 2fr 4fr;
     grid-template-rows: 3fr 3fr;
