@@ -333,6 +333,13 @@ ul{
 /* -- */
 
 /* section map */
+.section-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #1e3a8a;
+    font-size: 2rem;
+    font-weight: bold;
+}
 .map {
     height: 100%;
     width: 100%;
@@ -359,7 +366,7 @@ ul{
 }
 .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, fr));
     gap: 2rem;
     margin-bottom: 2rem;
 }
@@ -370,20 +377,28 @@ ul{
 }
 
 .footer-column ul {
+    display: flex;
+    flex-direction: row;
     list-style: none;
     justify-content: start;
+    gap: 10px;
+
 }
 
 .footer-column ul li {
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
     display: flex;
-    flex-direction: start;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
 }
 
 .footer-column ul li a {
     color: white;
     text-decoration: none;
     transition: color 0.1s;
+    gap: 10px;
 }
 
 .footer-column ul li a:hover {
