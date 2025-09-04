@@ -83,7 +83,7 @@ body{
 
 /* footer */
 .footer {
-    background: #3457b9;
+    background: #485d98;
     color: white;
     padding: 3rem 0 1rem;
 }
@@ -107,16 +107,19 @@ body{
 
 .footer-column ul {
     list-style: none;
+    justify-content: start;
 }
 
 .footer-column ul li {
     margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: start;
 }
 
 .footer-column ul li a {
     color: white;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: color 0.1s;
 }
 
 .footer-column ul li a:hover {
