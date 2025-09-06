@@ -4,7 +4,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* #home */
 /* homebackground */
 .hero {
     background: url('../imgbg/image.png') no-repeat center center/cover;
@@ -18,8 +17,6 @@ body {
     box-shadow: 1px 2px 8px gray;
 }
 
-/* .hero::after { */
-/* #home
 /* Navbar */
 nav {
     display: flex;
@@ -34,6 +31,7 @@ nav {
     z-index: 100;
 
 }
+
 nav::after {
     content: "";
     position: absolute;
@@ -54,7 +52,7 @@ nav::after {
 }
 
 .hero h1 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3rem;
     font-weight: bold;
 }
@@ -78,25 +76,9 @@ nav::after {
     cursor: pointer;
 }
 
-
 .hero button:hover {
     background: darkorange;
 }
-
-
-/* about */
-/* .section {
-    padding: 30px;
-    background: rgba(117, 116, 116, 0.5);
-}
-.home{
-    display: flex;
-} */
-/* navbar */
-/* -- */
-
-/* section home */
-/* -- */
 
 /* section about*/
 /* -- */
@@ -132,7 +114,8 @@ nav::after {
     font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
 }
-b{
+
+b {
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
@@ -140,33 +123,34 @@ b{
 
 /* section products */
 
-.products{
+.products {
     width: 100%;
     height: 100vh;
 }
 
-.product-parent{
+.product-parent {
     width: 100%;
     height: 100%;
     display: grid;
     grid-template-rows: 0.1fr 1fr;
 }
 
-.product-title{
+.product-title {
+    padding-top: 20PX;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.title-header{
+.title-header {
     font-size: 1.5em;
     font-weight: bold;
 }
 
-.title-description{
+.title-description {
     color: #666;
 }
 
-.product-card{
+.product-card {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -175,23 +159,70 @@ b{
     gap: 10px;
 }
 
-.card{
-    height: 200px;
-    width: 360px;
-    border: 1px solid #161111;
-    border-radius: 5px;
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    color: white;
+    height: 256px;
+    width: 400px;
+    border: 3px solid #16111155;
+    border-radius: 24px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 5px 8px grey;
 }
 
+.card1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../product-img/device-1.jpg);
+}
+
+.card2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../product-img/device-2.webp);
+}
+
+.card3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../product-img/device-3.jpg);
+}
+
+.card4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../product-img/device-4.jpg);
+}
+
+.card5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../product-img/device-5.jpg);
+}
+
+.card6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../product-img/device-6.jpg);
+}
+
+.card-detail {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-detail button {
+    color: white;
+    background-color:rgba(0, 0, 255, 0.726);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    box-shadow: 1px 5px 8px grey;
+}
 
 nav .logo {
     margin-left: 30px;
     font-size: 10px;
     font-weight: bold;
 }
+
 .home ul {
     margin-right: 400px;
     list-style: none;
@@ -213,19 +244,12 @@ nav ul li a {
     justify-content: center;
     align-items: center;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-
-/* #about
-#product
-#service
-#contect
-#map */
-
 
 /* section services */
 /* -- */
@@ -236,6 +260,7 @@ ul{
     justify-content: center;
     align-items: center;
 }
+
 .card-container {
     height: 60%;
     width: 94%;
@@ -330,6 +355,7 @@ ul{
 .submit-btn:hover {
     background: #1e40af;
 }
+
 /* -- */
 
 /* section map */
@@ -340,6 +366,7 @@ ul{
     font-size: 2rem;
     font-weight: bold;
 }
+
 .map {
     height: 100%;
     width: 100%;
@@ -349,6 +376,7 @@ ul{
     justify-content: center;
     color: #64748b;
 }
+
 /* -- */
 
 /* footer */
@@ -364,6 +392,7 @@ ul{
     margin: 0 auto;
     padding: 0 2rem;
 }
+
 .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, fr));
@@ -411,6 +440,7 @@ ul{
     border-top: 1px solid #374151;
     color: #9ca3af;
 }
+
 /* -- */
 
 
@@ -421,19 +451,25 @@ ul{
         height: 60vh;
         font-size: 2rem;
     }
+
     .hero-content {
         margin-left: 30px;
     }
+
     .home ul {
         margin-right: 100px;
     }
+
     .card-container {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
     }
-    .products, .services {
+
+    .products,
+    .services {
         height: auto;
     }
+
     .footer-content {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
@@ -445,51 +481,61 @@ ul{
         flex-direction: column;
         padding: 10px 10px;
     }
+
     .hero {
         height: 40vh;
         font-size: 1.2rem;
         padding: 10px;
     }
+
     .hero-content {
         margin-left: 0;
         padding: 10px;
     }
+
     .home ul {
         margin-right: 0;
         flex-direction: column;
         gap: 10px;
     }
-    .about, .ba {
+
+    .about,
+    .ba {
         flex-direction: column;
         padding: 10px;
     }
+
     .pt2 img {
         width: 100%;
         max-width: 200px;
     }
-    .product-card, .card-container {
+
+    .product-card,
+    .card-container {
         flex-direction: column;
         display: flex;
         gap: 10px;
     }
+
     .card {
         width: 90vw;
         height: 150px;
     }
+
     .footer-content {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+
     .container8 {
         padding: 0 1rem;
     }
+
     .footer {
         padding: 2rem 0 1rem;
     }
+
     .footer-bottom {
         font-size: 0.9rem;
     }
 }
-
-/* Desktop: No media query needed, default styles apply */
-
