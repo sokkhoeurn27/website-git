@@ -44,6 +44,40 @@ nav::after {
     /* Dark overlay */
 }
 
+nav .logo {
+    margin-left: 30px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.home ul {
+    margin-right: 400px;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 5px 8px white;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .hero-content {
     margin-left: 90px;
     position: relative;
@@ -136,6 +170,8 @@ b {
 }
 
 .product-title {
+    font-weight: 800;
+    font-size: 20px;
     padding-top: 20PX;
     text-align: center;
     margin-bottom: 20px;
@@ -172,34 +208,34 @@ b {
     border-radius: 24px;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     text-shadow: 1px 1px 2px black;
     box-shadow: 1px 5px 8px grey;
 }
 
 .card1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../product-img/device-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../product-img/device-1.jpg);
 }
 
 .card2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../product-img/device-2.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../product-img/device-2.webp);
 }
 
 .card3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../product-img/device-3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../product-img/device-3.jpg);
 }
 
 .card4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../product-img/device-4.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../product-img/device-4.jpg);
 }
 
 .card5 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../product-img/device-5.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../product-img/device-5.jpg);
 }
 
 .card6 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../product-img/device-6.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../product-img/device-6.jpg);
 }
 
 .card-detail {
@@ -210,46 +246,13 @@ b {
 
 .card-detail button {
     color: white;
-    background-color:rgba(0, 0, 255, 0.726);
+    background-color: rgba(0, 0, 255, 0.726);
     padding: 10px 20px;
     border-radius: 20px;
     border: 1px solid gray;
     box-shadow: 1px 5px 8px grey;
 }
 
-nav .logo {
-    margin-left: 30px;
-    font-size: 10px;
-    font-weight: bold;
-}
-
-.home ul {
-    margin-right: 400px;
-    list-style: none;
-}
-
-nav ul li {
-    margin: 0 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-    text-shadow: 2px 5px 8px white;
-    font-weight: 800;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 /* section services */
 /* -- */
@@ -257,13 +260,20 @@ ul {
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
 .card-container {
     height: 60%;
-    width: 94%;
+    width: 90%;
     display: grid;
     grid-template-columns: 2fr 2fr 4fr;
     grid-template-rows: 3fr 3fr;
@@ -276,33 +286,38 @@ ul {
 .card-3,
 .card-4,
 .card-5 {
-    border-radius: 10px;
+    border-radius: 24px;
     color: white;
     text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 5px 8px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card-1 {
-    background-color: rgb(204, 132, 38);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://media.istockphoto.com/id/625135580/photo/laptop-disassembling-with-screwdriver-at-repair.jpg?s=612x612&w=0&k=20&c=Em-dB6fevNhRd5yaIxcgjDfFxuTVT4OSm_ys_Ybke6c=);
     grid-area: 1 / 1 / 6 / 2;
 }
 
 .card-2 {
-    background-color: rgb(32, 185, 134);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://www.senecapolytechnic.ca/content/dam/projects/seneca/Program-2018/een_top.jpg);
     grid-area: 1 / 2 / 6 / 3;
 }
 
 .card-3 {
-    background-color: rgb(38, 38, 178);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://media.istockphoto.com/id/1409304336/photo/electricity-and-electrical-maintenance-service-engineer-hand-holding-ac-multimeter-checking.jpg?s=612x612&w=0&k=20&c=iacZhoBEf0SCffzWgNnYAsUBJpyGqW5JasLvUa8vayo=);
     grid-area: 1 / 3 / 2 / 9;
 }
 
 .card-4 {
-    background-color: rgb(192, 23, 48);
-    grid-area: 3 / 3 / 6 / 9;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_IX65ZdYy49k4m1RrB38-tU5KLcd1Cq_npA&s);
+    grid-area: 2 / 3 / 6 / 9;
 }
 
 .card-5 {
-    background-color: rgb(213, 213, 20);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://media.istockphoto.com/id/139861699/photo/data-center.jpg?s=612x612&w=0&k=20&c=a44aBjcs9WzWzUrJcQTDzWBPo_yTaI_OB6fBxjLAsXM=);
     grid-area: 6 / 1 / 6 / 9;
 }
 
@@ -522,6 +537,15 @@ ul {
         height: 150px;
     }
 
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        width: 90vw;
+        height: 200px;
+    }
     .footer-content {
         grid-template-columns: 1fr;
         gap: 1rem;
