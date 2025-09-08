@@ -2,7 +2,7 @@
 
 # 🛒 Electronic Shop Cambodia
 
-Welcome to **Electronic Shop Cambodia**, a simple e-commerce website project built with **HTML, CSS, and Google Maps integration**.  
+ Welcome to **Electronic Shop Cambodia**, a simple e-commerce website project built with **HTML, CSS, and Google Maps integration**.  
 This project is designed to practice web development structure and can be extended to a full online shopping platform.
 
 ---
@@ -42,30 +42,45 @@ Electronic-Shop/
 yaml
 Copy code
 
----
+
 
 ## ⚡ Setup Instructions
 
-1. Clone the repository or download the project:
-   ```bash
+### 1. Clone the repository or download the project:
+   bash
    git clone https://github.com/your-username/electronic-shop.git
 Open the project folder.
 
 Run index.html in any modern web browser.
 
-📷 Screenshots (Optional)
+## 📷 Screenshots (Optional)
 Add screenshots of your website here for better presentation.
 
-👥 Creators
+## 👥 Creators
 
-Mr. SATAN BUNTIT
+<a href="https://github.com/satan004">
+    <img src="https://avatars.githubusercontent.com/u/215123060?v=4" width="50" 
+    style="border-radius: 50%;" alt="Satan"/>
+    Mr satan004
+  </a>
+  
 
-Mr. PISET NEA
 
-Mz. SOKKHOEURN LENG
+  <a href="https://github.com/Pisetnea">
+    <img src="https://avatars.githubusercontent.com/u/215765518?v=4" width="50" 
+    style="border-radius: 50%;" alt="Piset"/>
+    Mr Pisetnea
+  </a>
 
-📬 Contact
+  <a href="https://github.com/sokkhoeurn27">
+    <img src="https://avatars.githubusercontent.com/u/224484574?v=4" width="50" 
+    style="border-radius: 50%;" alt="Sokkhoeurn"/>
+    Ms sokkhoeurn27
+  </a> 
+
+
+## 📬 Contact
 If you have any questions, feel free to contact us via the website Contact Form.
 
-📜 License
+## 📜 License
 This project is for educational purposes. You can modify and use it for your own learning.
