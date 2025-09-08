@@ -1,57 +1,71 @@
 # website-git
 
-## Project Structure
+# 🛒 Electronic Shop Cambodia
 
-```
-.gitignore
-README.md
-.vscode/
-    settings.json
-CSS/
-    style.css
-img logo/
-    image.png
-imgabout/
-    image.png
-imgbg/
-    image.png
-Page/
-    index.html
-```
+Welcome to **Electronic Shop Cambodia**, a simple e-commerce website project built with **HTML, CSS, and Google Maps integration**.  
+This project is designed to practice web development structure and can be extended to a full online shopping platform.
 
-## Description
+---
 
-This is a sample electronic shop website for Cambodia.  
-It features a homepage, about section, products, services, contact form, map, and footer with team and social media info.
+## 🚀 Features
 
-## Main Files
+- 🏠 **Homepage** with hero banner and call-to-action button  
+- ℹ️ **About Section** describing the shop  
+- 🛍️ **Products Section** showing available products with “Show More” button  
+- ⚙️ **Services Section** describing provided services  
+- 📩 **Contact Form** (Username, Email, Message)  
+- 🗺️ **Google Map Embed** showing shop location  
+- 📌 **Footer** with creators, social media links, majors, and departments  
 
-- [Page/index.html](Page/index.html): Main HTML file containing all sections of the website.
-- [CSS/style.css](CSS/style.css): Stylesheet for layout, colors, and responsiveness.
-- `.vscode/settings.json`: Editor settings for development.
-- `.gitignore`: Git ignore rules for dependencies and environment files.
+---
 
-## Features
+## 🛠️ Technologies Used
 
-- **Hero Section**: Welcome message and call-to-action button.
-- **Navigation Bar**: Logo and links to all sections.
-- **About Section**: Introduction and shop info.
-- **Products Section**: List of products with descriptions.
-- **Services Section**: Grid of service cards.
-- **Contact Section**: Form for user messages.
-- **Map Section**: Embedded Google Map.
-- **Footer**: Team, social media, majors, and departments.
+- **HTML5** – page structure  
+- **CSS3** – styling and layout  
+- **Google Maps Embed API** – location display  
 
-## How to Run
+---
 
-1. Open [Page/index.html](Page/index.html) in your browser.
-2. Edit [CSS/style.css](CSS/style.css) for custom styles.
-3. Use Live Server in VS Code for auto-reload (port 5501).
+## 📂 Project Structure
 
-## Authors
+Electronic-Shop/
+│── index.html # Main website file
+│── CSS/
+│ └── style.css # Stylesheet
+│── img logo/
+│ └── image.png # Logo image
+│── imgabout/
+│ └── image.png # About section image
+│── README.md # Project documentation
 
-- Mr. SATAN BUNTIT
-- Mr. PISET NEA
-- Mz. SOKKHOEURN LENG
+yaml
+Copy code
 
-## License
+---
+
+## ⚡ Setup Instructions
+
+1. Clone the repository or download the project:
+   ```bash
+   git clone https://github.com/your-username/electronic-shop.git
+Open the project folder.
+
+Run index.html in any modern web browser.
+
+📷 Screenshots (Optional)
+Add screenshots of your website here for better presentation.
+
+👥 Creators
+
+Mr. SATAN BUNTIT
+
+Mr. PISET NEA
+
+Mz. SOKKHOEURN LENG
+
+📬 Contact
+If you have any questions, feel free to contact us via the website Contact Form.
+
+📜 License
+This project is for educational purposes. You can modify and use it for your own learning.
