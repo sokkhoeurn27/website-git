@@ -9,7 +9,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:linear-gradient(to left bottom, rgb(68, 170, 170), rgb(233, 149, 233));
+    background-color: white;
     padding: 15px 50px;
     position: fixed;
     top: 0;
@@ -44,7 +44,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: black;
-    text-shadow: 2px 5px 8px white;
+    text-shadow: 2px 5px 8px rgb(131, 129, 129);
     font-weight: 800;
     display: flex;
     justify-content: center;
